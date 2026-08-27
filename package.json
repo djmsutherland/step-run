@@ -1,0 +1,17 @@
+{
+  "name": "step-run",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Ask a model for one part of a decision, validate it against a schema, retry once against the error, and write nothing. Pipeline-neutral and dependency-free: the doctrine, the state directory, the run kinds and the schema library are all injected.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.mts",
+      "default": "./src/index.mjs"
+    }
+  },
+  "types": "./src/index.d.mts"
+}
