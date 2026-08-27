@@ -79,6 +79,6 @@ already on disk keep meaning what they always meant.
 
 ## Tests
 
-`npm test` — 41 cases. `part.test.mjs` deliberately uses a hand-rolled
+`pnpm test` — 41 cases. No install needed: the package has no dependencies. `part.test.mjs` deliberately uses a hand-rolled
 `safeParse` rather than zod: it proves the duck-typed contract, and keeps the
 tests about the loop rather than someone else's validator.

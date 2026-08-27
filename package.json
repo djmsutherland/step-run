@@ -13,5 +13,10 @@
       "default": "./src/index.mjs"
     }
   },
-  "types": "./src/index.d.mts"
+  "types": "./src/index.d.mts",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.12",
+    "pnpm": ">=10.0.0"
+  }
 }
